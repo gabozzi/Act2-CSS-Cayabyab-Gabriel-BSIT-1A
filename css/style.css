@@ -60,7 +60,7 @@
 
 #blog>div>img{
     width: 100%;
-    height: 70%;
+    height: 65%;
     margin-top: -30px;
     overflow: hidden;
 }
@@ -78,15 +78,70 @@
     padding-left: 20px;
     font-size: 11.5px;
     padding-right: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     line-height: 18px;
     padding-top: 10px;
 }
 
 #blog>div a{
     text-decoration: none;
-    font-size: 11px;
+    font-size: 12px;
     color: gray;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 20px;
+}
+
+[title~="Featured"]{
+    color: white;
+    border: 1px solid rgb(26, 25, 25);
+}
+
+#blog>div:nth-child(4), #blog>div:nth-child(4) h3{
+    background: rgb(26, 25, 25);
+}
+
+#blog>div:nth-child(4) a{
+    color:white;
+
+}
+
+#blog>div:nth-child(4) a:hover{
+    color: orangered
+}
+
+#services{
+    margin-top: 100px;
+    padding-top: 100px;
+    background: whitesmoke;
+    width: 100%;
+    text-align: center;
+}
+
+#services h2{
+    font-size: 28px;
+}
+
+#services ul{
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-gap: 0 30px;
+    padding: 0 125px;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+
+#services ul li{
+    background: white;
+    padding: 30px 30px;
+    font-size: 13px;
+    list-style: none;
+    width: 100%;
+}
+#services ul li:first-child{
+    background: orangered;
+}
+
+#services ul li:hover{
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.315);
 }
