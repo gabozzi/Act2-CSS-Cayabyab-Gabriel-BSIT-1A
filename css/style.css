@@ -12,7 +12,7 @@
 
 #landing{
     width: 100%;
-    background: linear-gradient(0deg, rgba(182, 174, 174, 0.233), rgba(0, 0, 0, 0.3)), url('../img/landing-img.jpg');
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.507), rgba(0, 0, 0, 0.3)), url('../img/landing-img.jpg');
     background-size: cover;
     min-height: 100vh;
     text-align: center;
@@ -22,7 +22,7 @@
     flex-direction: column;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.993);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.568);
 }
 
 #landing h1{
